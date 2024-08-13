@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b" name="P_사용기업_재무_자동화" result="Stop" detail="변수 'this.main'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.&#xA;&#xA;Process: P_사용기업_재무_자동화&#xA;&#xA;Process: P_사용기업_재무_자동화&#xA;Step: ChromeOpen (2/255)&#xA;변수 'this.main'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.&#xA;&#xA;-- Recent Warning Messages --&#xA;Process: P_사용기업_재무_자동화&#xA;Step: ChromeOpen (2/255)&#xA;&#xA;Error: 변수 'this.main'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다." start="2024-08-13T06:16:58.724" end="2024-08-13T06:17:04.566" jobId="Designer_20240813_151655_892">
+  <Step id="Sab6b86d4023440c9b56b11efdc4fa38b" taskName="P_사용기업_재무_자동화" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="1" depth="1" num="2" result="Fail" start="2024-08-13T06:16:58.789" end="2024-08-13T06:17:04.532" displayTime="5.7s">
+    <Variables>
+      <Variable name="m" scope="Normal" owner="P_사용기업_재무_자동화" declareType="Any" isChanged="false" isChangable="false" runtimeType="Undefined" value="&lt;undefined&gt;" />
+      <Variable name="main" scope="Normal" owner="P_사용기업_재무_자동화" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.main : &lt;undefined&gt;" runtimeType="Undefined" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'https://sonw00.github.io/sonw00.jemujepyo.github.io/'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="DESIGNER-HO8M8" />
+  </JobInfo>
+</Result>

@@ -3,7 +3,7 @@
   <NormalTask isExpended="false" />
   <Event isExpended="false" />
   <Process isExpended="true">
-    <LinkItem id="6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b" category="Process" isChanged="Y" desc="default process" stepCount="146" name="P_사용기업_재무_자동화">
+    <LinkItem id="6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b" category="Process" isChanged="Y" desc="default process" stepCount="261" name="P_사용기업_재무_자동화">
       <Properties />
     </LinkItem>
   </Process>
@@ -33,4 +33,4 @@
     <string>ImageRecognition</string>
     <string>DataConverter</string>
   </DisplayLibraries>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rHFl20/8Z+54FxunnpxJEdoKH6w=</DigestValue></Reference></SignedInfo><SignatureValue>XOtln6Ww4ZtOeKbeNdXznFeo5uS+4Pxhd76wYzGzwmVR9Drjp59dBT5GyqOaRi85bDFO6FywTOpIeE3Guaeteu9b6viRCvwz00Av+AVJ8ETUp3wwndpbp3MMDNx5cPNW9K5LG9iJ4MH8Vzqv/434w4xXEddLDhUTT4vS5djT3dXbrSXGRmcORKsW/RvXcX+bc6EqnDwd09ThFkrG4hrDX9WlpunJBn7W0T+46d3vHu32P9eXmXLM5NfVHfH4S7x9jdzejuSmBvhp7FMNV5ZHsKGyaZQs/woPqBwY71cdxThU2KFyuC9O99RgtaSUXzpKc7onUxJwIUTXm/B5a3xkig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-HO8M8, O=bwrpa.samsungsds.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Project>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bJUXFhomJbCph+hmymOzjxAJQk4=</DigestValue></Reference></SignedInfo><SignatureValue>Wv5R3neisj677NCy5Vd+fRDv1utinkjYevKVm8PAk/0qDCj+A7u3dGHujca4oz1ix/E0+HIMRr0s8Mh6kYXnIUC4qjzcpASeo4kIYI6x55Ge/udtc5jXVlQAjSg8PrnfwhNIkdo2Lv3D15Aod8DABI/uFPUW4Y458+ixg3c1vfsUvhYFjwBEo8EkHzxUXQRmAzVVXNxqT1EW1TWvbcuebwojvOSynwJHS6rdHRm0ohvPfkMJYLJm5ch3eOjNqkGEr7T9EesIBdNtE8ozQcsa6iLF7KTy4EamDOLua8Tu83uxaNWe9vTPVrIYv5AlY4u8fz0vBLQd3mqAaofZscm1aA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-HO8M8, O=bwrpa.samsungsds.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Project>
