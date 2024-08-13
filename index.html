@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업 정보 및 재무제표</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f0f0f0; }
+        h1, h2 { text-align: center; color: #333; }
+        .container { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .theme { background-color: white; margin: 20px; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: calc(50% - 40px); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .financial-url, .company-name { word-break: break-all; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>기업 정보 및 재무제표</h1>
+    <div class="container">
+        <div class="theme">
+            <h2>IT</h2>
+            <table>
+                <tr>
+                    <th>기업명</th>
+                    <th>재무제표 URL</th>
+                    <th>영업이익</th>
+                    <th>당기순이익</th>
+                    <th>영업이익률</th>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4" target="_blank">삼성전자</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/svo2/asp/SVD_Finance.asp?pGB=1&gicode=A005930&cID=AA&MenuYn=Y&ReportGB=D&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>51.63조원</td>
+                    <td>39.91조원</td>
+                    <td>4.15%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EB%84%A4%EC%9D%B4%EB%B2%84+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irEVXsqo15VsssTFuTZssssst0G-132140" target="_blank">네이버</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/svo2/asp/SVD_Finance.asp?pGB=1&gicode=A035420&cID=AA&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>1.49조원</td>
+                    <td>1.0조원</td>
+                    <td>15.4%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%B9%B4%EC%B9%B4%EC%98%A4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%EB%84%A4%EC%9D%B4%EB%B2%84+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irEVIlqo1SossvznKRhssssssRV-473946" target="_blank">카카오</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/svo2/asp/SVD_Finance.asp?pGB=1&gicode=A035720&cID=AA&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>0.5조원</td>
+                    <td>-1.82조원</td>
+                    <td>6.1%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%EC%B9%B4%EC%B9%B4%EC%98%A4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irEWtsqo1LVssapOwQhssssss%2F8-297779" target="_blank">엔씨소프트</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/svo2/asp/SVD_Finance.asp?pGB=1&gicode=A036570&cID=AA&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>0.2조원</td>
+                    <td>0.2조원</td>
+                    <td>7.71%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="theme">
+            <h2>전자</h2>
+            <table>
+                <tr>
+                    <th>기업명</th>
+                    <th>재무제표 URL</th>
+                    <th>영업이익</th>
+                    <th>당기순이익</th>
+                    <th>영업이익률</th>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=LG%EC%A0%84%EC%9E%90+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%EC%97%94%EC%94%A8%EC%86%8C%ED%94%84%ED%8A%B8+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE1swqo15VsssSTkFlssssstkV-478693" target="_blank">LG전자</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A066570&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>3.55조원</td>
+                    <td>1.2조원</td>
+                    <td>4.21%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=Sk+%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=Sj+%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE1Llqo1fsss4tgbvossssssBC-187538" target="_blank">SK하이닉스</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A000660&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>-7.73조원</td>
+                    <td>-9.13조원</td>
+                    <td>-23.6%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%82%BC%EC%84%B1+sdi+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=Sk+%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE1Mlqps8wsss6KiWCssssst9h-377263" target="_blank">삼성SDI</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A006400&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>1.63조원</td>
+                    <td>2.11조원</td>
+                    <td>7.19%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=LG+%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=LG+eltmvmffpdl+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE1kdqpts0ssFhz9h8ssssstWZ-035954" target="_blank">LG디스플레이</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A034220&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>-2.51조원</td>
+                    <td>-2.61조원</td>
+                    <td>-11.77%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="theme">
+            <h2>제약</h2>
+            <table>
+                <tr>
+                    <th>기업명</th>
+                    <th>재무제표 URL</th>
+                    <th>영업이익</th>
+                    <th>당기순이익</th>
+                    <th>영업이익률</th>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%82%BC%EC%84%B1+%EB%B0%94%EC%9D%B4%EC%98%A4%EB%A1%9C%EC%A7%81%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=LG+%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE1Csqo1e8ssZGslxsssssst4R-477966" target="_blank">삼성바이오로직스</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A207940&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>1.11조원</td>
+                    <td>0.85조원</td>
+                    <td>30.14%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%85%80%ED%8A%B8%EB%A6%AC%EC%98%A8+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%EC%82%BC%EC%84%B1+%EB%B0%94%EC%9D%B4%EC%98%A4%EB%A1%9C%EC%A7%81%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE1osqo15wssuRO19hssssstv0-333991" target="_blank">셀트리온</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A068270&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>0.65조원</td>
+                    <td>0.54조원</td>
+                    <td>29.93%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%9C%A0%ED%95%9C%EC%96%91%ED%96%89+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%EC%85%80%ED%8A%B8%EB%A6%AC%EC%98%A8+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE1Vlqo15wssvtV7alssssssw0-343042" target="_blank">유한양행</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A000100&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>0.05조원</td>
+                    <td>0.13조원</td>
+                    <td>3.05%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%ED%95%9C%EB%AF%B8%EC%95%BD%ED%92%88+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%EC%9C%A0%ED%95%9C%EC%96%91%ED%96%89+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE11wpzL8wssLcKyP8ssssss4C-224712" target="_blank">한미약품</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A128940&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>0.22조원</td>
+                    <td>0.17조원</td>
+                    <td>14.80%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="theme">
+            <h2>차량</h2>
+            <table>
+                <tr>
+                    <th>기업명</th>
+                    <th>재무제표 URL</th>
+                    <th>영업이익</th>
+                    <th>당기순이익</th>
+                    <th>영업이익률</th>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%ED%98%84%EB%8C%80%EC%9E%90%EB%8F%99%EC%B0%A8+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%ED%95%9C%EB%AF%B8%EC%95%BD%ED%92%88+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE1JdpzLi0ssLF7S%2BossssstZN-018480" target="_blank">현대자동차</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A005380&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>15.13조원</td>
+                    <td>12.27조원</td>
+                    <td>9.3%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EA%B8%B0%EC%95%84+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%ED%98%84%EB%8C%80%EC%9E%90%EB%8F%99%EC%B0%A8+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irE2twpzLi0ssLBfvuRssssssHs-497292" target="_blank">기아</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A000270&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>11.60조원</td>
+                    <td>8.78조원</td>
+                    <td>11.63%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%8C%8D%EC%9A%A9%EC%9E%90%EB%8F%99%EC%B0%A8+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=KG%EB%AA%A8%EB%B9%8C%EB%A6%AC%ED%8B%B0+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&tqi=irEIMwqo1fsss4xf9wNssssstS0-029458" target="_blank">KG모빌리티((구)쌍용)</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A003620&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>125억원</td>
+                    <td>89억원</td>
+                    <td>0.34%</td>
+                </tr>
+                <tr>
+                    <td class="company-name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%ED%98%84%EB%8C%80%EB%AA%A8%EB%B9%84%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4&oquery=%ED%98%84%EB%8C%80%EB%AA%A8%EB%B9%84%EC%8A%A4+%EC%A3%BC%EA%B0%80&tqi=irEJtlqo1SCssvZ4NUKssssstOw-335427" target="_blank">현대모비스</a></td>
+                    <td class="financial-url"><a href="https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A012330&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701" target="_blank">재무제표 보기</a></td>
+                    <td>2.3조원</td>
+                    <td>3.4조원</td>
+                    <td>3.87%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
