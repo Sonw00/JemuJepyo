@@ -1,0 +1,666 @@
+﻿2024-08-13 10:53:37,703 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-08-13 오전 10:53:37
+EngineID: D_20240813_105336_916
+PID : 4264
+PPID: 8128
+Working Directory: C:\Users\2C000013\AppData\Roaming\Brity RPA Designer
+
+2024-08-13 10:53:37,720 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-08-13 10:53:37,954 [T1] INFO  Config
+Initialize Config
+
+2024-08-13 10:53:37,995 [T1] DEBUG Config
+Config Loaded
+
+2024-08-13 10:53:37,995 [T1] DEBUG Config
+Backup config file.
+
+2024-08-13 10:53:38,005 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-08-13 10:53:38,009 [T1] INFO  Config
+Initialize Resource Config
+
+2024-08-13 10:53:38,033 [T1] DEBUG Config
+Refresh Language Information
+
+2024-08-13 10:53:38,125 [T1] INFO  Config
+All Config Initialized.
+
+2024-08-13 10:53:38,131 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-08-13 10:53:38,134 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-08-13 10:53:38,142 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-08-13 10:53:38,178 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-08-13 10:53:38,181 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-08-13 10:53:38,208 [T5] DEBUG JobService
+Connect to agent service
+
+2024-08-13 10:53:38,236 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-08-13 10:53:38,236 [T5] DEBUG JobService
+Open connection
+
+2024-08-13 10:53:38,243 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-08-13 10:53:38,250 [T5] DEBUG JobService
+Register engine to agent
+
+2024-08-13 10:53:38,251 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-08-13 10:53:38,261 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-08-13 10:53:38,261 [T5] DEBUG JobService
+Owner Process PID: 8128
+
+2024-08-13 10:53:38,264 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-08-13 10:53:38,265 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-08-13 10:53:38,532 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-08-13 10:53:38,719 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-08-13 10:53:38,858 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-08-13 10:53:38,967 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-08-13 10:53:39,075 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-08-13 10:53:39,135 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-08-13 10:53:39,315 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-08-13 10:53:39,372 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-08-13 10:53:39,454 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-08-13 10:53:39,535 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-08-13 10:53:39,620 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-08-13 10:53:39,696 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-08-13 10:53:39,800 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-08-13 10:53:39,924 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-08-13 10:53:39,954 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-08-13 10:53:40,060 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-08-13 10:53:40,129 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-08-13 10:53:40,216 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-08-13 10:53:40,232 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-08-13 10:53:40,248 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-08-13 10:53:40,264 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-08-13 10:53:40,280 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-08-13 10:53:40,296 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-08-13 10:53:40,312 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-08-13 10:53:40,328 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-08-13 10:53:40,344 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-08-13 10:53:40,360 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-08-13 10:53:40,376 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-08-13 10:53:40,392 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-08-13 10:53:40,408 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-08-13 10:53:40,424 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-08-13 10:53:40,439 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-08-13 10:53:40,455 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-08-13 10:53:40,471 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-08-13 10:53:40,476 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-08-13 10:53:40,774 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-08-13 10:53:40,786 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240813_105336_916 -runtype ProcRunner -ppid 8128
+
+2024-08-13 10:53:40,787 [T1] DEBUG Config
+Refresh Language Information
+
+2024-08-13 10:53:40,788 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-08-13 10:56:32,514 [T7] INFO  JobService
+Start Job: P_사용기업_재무_자동화 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-08-13 10:56:32",
+  "EndTime": null,
+  "JobId": "Designer_20240813_105632_272",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\P_사용기업_재무_자동화.proc",
+  "ProcessId": "6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b",
+  "ProcessVer": "1.0",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 8128,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240813_105336_916",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_105632_P_사용기업_재무_자동화_Designer_20240813_105632_272",
+  "JobLogDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_105632_P_사용기업_재무_자동화_Designer_20240813_105632_272\\Log",
+  "JobScreenshotDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_105632_P_사용기업_재무_자동화_Designer_20240813_105632_272\\Log\\Screenshot"
+}
+
+2024-08-13 10:56:32,660 [T10] DEBUG JobService
+Waiting library loading...
+
+2024-08-13 10:56:32,663 [T10] DEBUG Config
+Reload User Settings
+
+2024-08-13 10:56:32,664 [T10] INFO  JobService
+Config Loading Completed.
+
+2024-08-13 10:56:32,664 [T10] DEBUG JobService
+Config Loading Time: 3 ms.
+
+2024-08-13 10:56:32,669 [T10] DEBUG JobService
+Check Shared Token
+
+2024-08-13 10:56:32,670 [T10] DEBUG TokenManager
+Load connection token
+
+2024-08-13 10:56:32,672 [T10] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-08-13 10:56:32,698 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-08-13 10:56:32,765 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-08-13 10:56:32,768 [T1] INFO  ServerInformationClient
+It takes 76 milliseconds to try to update the server feature list.
+
+2024-08-13 10:56:32,769 [T1] INFO  Config
+Update server features to config.
+
+2024-08-13 10:56:32,788 [T10] INFO  JobService
+Shared Token - No Token
+
+2024-08-13 10:56:32,794 [T10] INFO  JobManager
+Create JobManager instance for job P_사용기업_재무_자동화(Designer_20240813_105632_272)
+
+2024-08-13 10:56:32,800 [T10] INFO  JobRequest
+Job ID : Designer_20240813_105632_272
+Project Path  : C:\Users\2C000013\Documents\Brity RPA Projects\사용기업_재무_자동화1\사용기업_재무_자동화1.proj
+Process Name  : P_사용기업_재무_자동화
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 8128
+
+2024-08-13 10:56:32,803 [T3] INFO  JobRequest
+Start Callback Sender
+
+2024-08-13 10:56:32,803 [T3] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-08-13 10:56:32,847 [T10] DEBUG ProjectManager
+Set Project Information
+
+2024-08-13 10:56:32,873 [T10] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-08-13 10:56:32,874 [T10] INFO  JobRunner
+Initialize Script Engine
+
+2024-08-13 10:56:32,890 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-08-13 10:56:32,920 [T3] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-08-13 10:56:33,763 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-08-13 10:56:33,767 [T3] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-08-13 10:56:33,775 [T10] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-08-13 10:56:33,776 [T10] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-08-13 10:56:33,777 [T15-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-08-13 10:56:33,779 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-08-13 10:56:33,779 [T15-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-08-13 10:56:33,783 [T3] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-08-13 10:56:33,799 [T3] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-08-13 10:56:34,862 [T15-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-08-13 10:56:34,941 [T15-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-08-13 10:56:34,974 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_사용기업_재무_자동화
+##############################################################
+6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b
+P_사용기업_재무_자동화
+
+
+2024-08-13 10:56:35,037 [T15-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_사용기업_재무_자동화
+**************************************************************
+ - STEP 1: Sab6b86d4023440c9b56b11efdc4fa38b (2/23) - (1/22)
+ - [2] ChromeOpen
+
+
+2024-08-13 10:56:38,059 [T10] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : 하나 이상의 오류가 발생했습니다.
+
+2024-08-13 10:56:40,643 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 2: S526b68826c094ed4a851937eeb000d84 (3/23) - (2/22)
+ - [3] OpenExcel
+
+
+2024-08-13 10:56:42,258 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 3: S142fbd5d0d6948baa28c008242404313 (4/23) - (3/22)
+ - [4] Click
+
+
+2024-08-13 10:56:42,386 [T10] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-08-13 10:56:43,385 [T10] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 10:56:43,385 [T10] INFO  UIAEventHandler
+waiting for 944 msec during the screen structure is changing.
+
+2024-08-13 10:56:44,066 [T10] DEBUG UIAEventHandler
+UI Structure Changed Count: 1
+
+2024-08-13 10:56:44,178 [T10] INFO  UIAEventHandler
+waiting for 221 msec during the screen structure is changing.
+
+2024-08-13 10:56:45,063 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 4: S4f6275dd080f4bd8b5dd90c133eca4b1 (5/23) - (4/22)
+ - [5] GetGridItems
+
+
+2024-08-13 10:56:46,101 [T10] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 10:56:46,101 [T10] INFO  UIAEventHandler
+waiting for 88 msec during the screen structure is changing.
+
+2024-08-13 10:56:46,623 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 5: S748d553946e0402a8004f08f87f8647f (6/23) - (5/22)
+ - [6] CreateWorkSheet
+
+
+2024-08-13 10:56:46,718 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 6: S835d66903fba47979f1a4c9f4bbdd97f (7/23) - (6/22)
+ - [7] WriteRange
+
+
+2024-08-13 10:56:46,827 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 7: S78e450ccef0c4a1f8e20c426fc6a1794 (8/23) - (7/22)
+ - [8] KeyInput
+
+
+2024-08-13 10:56:49,003 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 8: S5e17407a4a2247398b23e9faadf837dd (9/23) - (8/22)
+ - [9] Click
+
+
+2024-08-13 10:56:50,168 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 9: S6714fc674ff54c0f988c76dc0470558c (10/23) - (9/22)
+ - [10] GetGridItems
+
+
+2024-08-13 10:56:50,374 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 10:56:50,374 [T19] INFO  UIAEventHandler
+waiting for 185 msec during the screen structure is changing.
+
+2024-08-13 10:56:51,135 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 10:56:51,135 [T19] INFO  UIAEventHandler
+waiting for 105 msec during the screen structure is changing.
+
+2024-08-13 10:56:51,627 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 10: S1781534bfa9645c080bea1e4e5417fc1 (11/23) - (10/22)
+ - [11] CreateWorkSheet
+
+
+2024-08-13 10:56:51,689 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 11: S8d28bf5c524a4f25a010857a808dec36 (12/23) - (11/22)
+ - [12] WriteRange
+
+
+2024-08-13 10:56:51,737 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 12: S755f943e999b4b689e99e0fbe352b51d (13/23) - (12/22)
+ - [13] KeyInput
+
+
+2024-08-13 10:56:53,885 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 13: S8d8b74e9ce4a413bbc3236408d96b20d (14/23) - (13/22)
+ - [14] Click
+
+
+2024-08-13 10:56:55,079 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 14: Scd3dc7af6b3a49bb9fcab5d2da41665c (15/23) - (14/22)
+ - [15] GetGridItems
+
+
+2024-08-13 10:56:55,264 [T10] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 10:56:55,264 [T10] INFO  UIAEventHandler
+waiting for 147 msec during the screen structure is changing.
+
+2024-08-13 10:56:55,976 [T10] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 10:56:55,976 [T10] INFO  UIAEventHandler
+waiting for 83 msec during the screen structure is changing.
+
+2024-08-13 10:56:56,469 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 15: Sf174769fe0a540c5af2feaa0669cb86f (16/23) - (15/22)
+ - [16] CreateWorkSheet
+
+
+2024-08-13 10:56:56,532 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 16: Se6f42b7becad47d2a64ea98b4e5f2551 (17/23) - (16/22)
+ - [17] WriteRange
+
+
+2024-08-13 10:56:56,578 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 17: Sa7c27ff225ef420da04c5718edecc2a2 (18/23) - (17/22)
+ - [18] KeyInput
+
+
+2024-08-13 10:56:58,720 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 18: S20d8e6b703c14c8aaccac6541361ddc3 (19/23) - (18/22)
+ - [19] Click
+
+
+2024-08-13 10:56:59,878 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 19: S3e6543a0a9e94847904def2c059db9ea (20/23) - (19/22)
+ - [20] GetGridItems
+
+
+2024-08-13 10:57:00,084 [T10] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 10:57:00,084 [T10] INFO  UIAEventHandler
+waiting for 183 msec during the screen structure is changing.
+
+2024-08-13 10:57:00,877 [T10] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 10:57:00,877 [T10] INFO  UIAEventHandler
+waiting for 85 msec during the screen structure is changing.
+
+2024-08-13 10:57:01,401 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 20: S57cce90f7f004de8b8ede2c76e2fab6a (21/23) - (20/22)
+ - [21] CreateWorkSheet
+
+
+2024-08-13 10:57:01,465 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 21: S1318ee3bceb544f4a22a443b57fc0f2a (22/23) - (21/22)
+ - [22] WriteRange
+
+
+2024-08-13 10:57:01,480 [T15-ScriptEngine] ERROR WriteRange
+워크시트 이름을 확인해주세요.
+
+2024-08-13 10:57:11,117 [T15-ScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_사용기업_재무_자동화
+Step: WriteRange (22/23)
+
+Error: 영역 쓰기에 실패했습니다.
+ - 워크시트 이름을 확인해주세요.
+
+2024-08-13 10:57:11,120 [T15-ScriptEngine] FINE  JobRunner
+RunTask ExceptionOccured. TASK: P_사용기업_재무_자동화 => 영역 쓰기에 실패했습니다.
+ - 워크시트 이름을 확인해주세요.
+
+2024-08-13 10:57:11,132 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_사용기업_재무_자동화
+##############################################################
+6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b
+P_사용기업_재무_자동화
+
+
+2024-08-13 10:57:11,144 [T15-ScriptEngine] ERROR JobRunner
+Process: P_사용기업_재무_자동화
+Step: WriteRange (22/23)
+
+영역 쓰기에 실패했습니다.
+ - 워크시트 이름을 확인해주세요.
+
+[CallStack]
+  - P_사용기업_재무_자동화: [22] WriteRange
+
+[Global Variables]
+  - 경로 = 'C:\\Users\\2C000013\\Desktop\\' (String)
+  - RESULT = <null> (Any)
+
+[P_사용기업_재무_자동화 Variables]
+  - excel = Workbook (Any)
+  - table = <Too Long> [["IFRS(연결)","2021/12","2022/12","2023/12","2024/03","전년동기","전년동기(%)"],["매출액","23,088","25,718","17, ... 1007 more (Array2D)
+  - main = <object:ChromeBrowserObject> (Any)
+
+2024-08-13 10:57:11,144 [T15-ScriptEngine] DEBUG JobManager
+Set Result State: ExceptionOccured
+
+2024-08-13 10:57:12,692 [T15-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-08-13 10:57:12,731 [T15-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-08-13 10:57:12,733 [T10] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-08-13 10:57:12,736 [T15-ScriptEngine] DEBUG JobRunner
+OnProcessFailed
+
+2024-08-13 10:57:12,742 [T15-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-08-13 10:57:12,766 [T15-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-08-13 10:57:12,769 [T15-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-08-13 10:57:12,770 [T15-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-08-13 10:57:12,772 [T15-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-08-13 10:57:12,773 [T15-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-08-13 10:57:12,784 [T15-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-08-13 10:57:12,785 [T15-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-08-13 10:57:12,787 [T15-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-08-13 10:57:12,788 [T15-ScriptEngine] DEBUG JobRunner
+SendJobResult: ExceptionOccured
+
+2024-08-13 10:57:12,788 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: ExceptionOccured
+##############################################################
+Process: P_사용기업_재무_자동화
+Step: WriteRange (22/23)
+
+영역 쓰기에 실패했습니다.
+ - 워크시트 이름을 확인해주세요.
+
+[CallStack]
+  - P_사용기업_재무_자동화: [22] WriteRange
+
+[Global Variables]
+  - 경로 = 'C:\\Users\\2C000013\\Desktop\\' (String)
+  - RESULT = <null> (Any)
+
+[P_사용기업_재무_자동화 Variables]
+  - excel = Workbook (Any)
+  - table = <Too Long> [["IFRS(연결)","2021/12","2022/12","2023/12","2024/03","전년동기","전년동기(%)"],["매출액","23,088","25,718","17, ... 1007 more (Array2D)
+  - main = <object:ChromeBrowserObject> (Any)
+
+
+2024-08-13 10:57:12,788 [T15-ScriptEngine] INFO  JobRequest
+Last job life cycle state: ExceptionOccured
+
+2024-08-13 10:57:12,801 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-08-13 10:57:12,804 [T3] DEBUG JobRequest
+Callback - State: ExceptionOccured
+Process: P_사용기업_재무_자동화
+Step: WriteRange (22/23)
+
+영역 쓰기에 실패했습니다.
+ - 워크시트 이름을 확인해주세요.
+
+[CallStack]
+  - P_사용기업_재무_자동화: [22] WriteRange
+
+[Global Variables]
+  - 경로 = 'C:\\Users\\2C000013\\Desktop\\' (String)
+  - RESULT = <null> (Any)
+
+[P_사용기업_재무_자동화 Variables]
+  - excel = Workbook (Any)
+  - table = <Too Long> [["IFRS(연결)","2021/12","2022/12","2023/12","2024/03","전년동기","전년동기(%)"],["매출액","23,088","25,718","17, ... 1007 more (Array2D)
+  - main = <object:ChromeBrowserObject> (Any)
+
+2024-08-13 10:57:12,805 [T3] INFO  JobRequest
+Callback - EngineClosed
+
+2024-08-13 10:57:12,806 [T3] INFO  JobService
+Disconnect agent service
+
+2024-08-13 10:57:12,808 [T3] DEBUG JobRequest
+End of Callback Sender
+
