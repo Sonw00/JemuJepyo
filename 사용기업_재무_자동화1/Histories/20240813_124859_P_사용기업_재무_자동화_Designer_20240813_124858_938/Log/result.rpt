@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b" name="P_사용기업_재무_자동화" result="Fail" detail="입력한 엑셀이 없습니다. 재확인 해주십시요.&#xA;&#xA;-- Recent Warning Messages --&#xA;Process: P_사용기업_재무_자동화&#xA;Step: CreateWorkSheet (7/146)&#xA;&#xA;Error: 입력한 엑셀이 없습니다. 재확인 해주십시요." start="2024-08-13T03:49:01.754" end="2024-08-13T03:49:04.982" jobId="Designer_20240813_124858_938">
+  <Step id="S97bdb3a0f32a46e0b87e43f28ced1ddf" taskName="P_사용기업_재무_자동화" type="Excel" name="CreateWorkSheet" displayName="CreateWorkSheet" callDepth="1" depth="2" num="7" result="Fail" detail="입력한 엑셀이 없습니다. 재확인 해주십시요." start="2024-08-13T03:49:01.824" end="2024-08-13T03:49:04.976" displayTime="3.2s">
+    <Variables>
+      <Variable name="it_excel" scope="Normal" owner="P_사용기업_재무_자동화" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'삼성전자_기업정보'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Sheet_Position" displayKey="Position" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="DESIGNER-HO8M8" />
+  </JobInfo>
+</Result>

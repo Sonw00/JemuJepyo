@@ -1,0 +1,1314 @@
+﻿2024-08-13 12:49:07,060 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-08-13 오후 12:49:07
+EngineID: D_20240813_124906_234
+PID : 11108
+PPID: 8128
+Working Directory: C:\Users\2C000013\AppData\Roaming\Brity RPA Designer
+
+2024-08-13 12:49:07,081 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-08-13 12:49:07,375 [T1] INFO  Config
+Initialize Config
+
+2024-08-13 12:49:07,423 [T1] DEBUG Config
+Config Loaded
+
+2024-08-13 12:49:07,424 [T1] DEBUG Config
+Backup config file.
+
+2024-08-13 12:49:07,435 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-08-13 12:49:07,439 [T1] INFO  Config
+Initialize Resource Config
+
+2024-08-13 12:49:07,468 [T1] DEBUG Config
+Refresh Language Information
+
+2024-08-13 12:49:07,536 [T1] INFO  Config
+All Config Initialized.
+
+2024-08-13 12:49:07,544 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-08-13 12:49:07,547 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-08-13 12:49:07,554 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-08-13 12:49:07,592 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-08-13 12:49:07,596 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-08-13 12:49:07,621 [T5] DEBUG JobService
+Connect to agent service
+
+2024-08-13 12:49:07,653 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-08-13 12:49:07,653 [T5] DEBUG JobService
+Open connection
+
+2024-08-13 12:49:07,662 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-08-13 12:49:07,668 [T5] DEBUG JobService
+Register engine to agent
+
+2024-08-13 12:49:07,671 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-08-13 12:49:07,681 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-08-13 12:49:07,681 [T5] DEBUG JobService
+Owner Process PID: 8128
+
+2024-08-13 12:49:07,683 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-08-13 12:49:07,687 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-08-13 12:49:07,999 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-08-13 12:49:08,199 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-08-13 12:49:08,359 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-08-13 12:49:08,477 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-08-13 12:49:08,571 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-08-13 12:49:08,628 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-08-13 12:49:08,826 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-08-13 12:49:08,888 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-08-13 12:49:08,980 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-08-13 12:49:09,070 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-08-13 12:49:09,159 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-08-13 12:49:09,240 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-08-13 12:49:09,356 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-08-13 12:49:09,513 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-08-13 12:49:09,545 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-08-13 12:49:09,837 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-08-13 12:49:10,135 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-08-13 12:49:10,516 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-08-13 12:49:10,538 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-08-13 12:49:10,563 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-08-13 12:49:10,603 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-08-13 12:49:10,615 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-08-13 12:49:10,629 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-08-13 12:49:10,645 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-08-13 12:49:10,661 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-08-13 12:49:10,686 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-08-13 12:49:10,726 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-08-13 12:49:10,767 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-08-13 12:49:10,788 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-08-13 12:49:10,804 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-08-13 12:49:10,819 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-08-13 12:49:10,836 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-08-13 12:49:10,851 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-08-13 12:49:10,867 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-08-13 12:49:10,872 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-08-13 12:49:11,136 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-08-13 12:49:11,149 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240813_124906_234 -runtype ProcRunner -ppid 8128
+
+2024-08-13 12:49:11,150 [T1] DEBUG Config
+Refresh Language Information
+
+2024-08-13 12:49:11,151 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-08-13 12:49:51,070 [T7] INFO  JobService
+Start Job: P_사용기업_재무_자동화 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-08-13 12:49:51",
+  "EndTime": null,
+  "JobId": "Designer_20240813_124950_835",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\P_사용기업_재무_자동화.proc",
+  "ProcessId": "6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b",
+  "ProcessVer": "1.0",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 8128,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240813_124906_234",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_124951_P_사용기업_재무_자동화_Designer_20240813_124950_835",
+  "JobLogDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_124951_P_사용기업_재무_자동화_Designer_20240813_124950_835\\Log",
+  "JobScreenshotDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_124951_P_사용기업_재무_자동화_Designer_20240813_124950_835\\Log\\Screenshot"
+}
+
+2024-08-13 12:49:51,210 [T10] DEBUG JobService
+Waiting library loading...
+
+2024-08-13 12:49:51,212 [T10] DEBUG Config
+Reload User Settings
+
+2024-08-13 12:49:51,213 [T10] INFO  JobService
+Config Loading Completed.
+
+2024-08-13 12:49:51,213 [T10] DEBUG JobService
+Config Loading Time: 2 ms.
+
+2024-08-13 12:49:51,219 [T10] DEBUG JobService
+Check Shared Token
+
+2024-08-13 12:49:51,220 [T10] DEBUG TokenManager
+Load connection token
+
+2024-08-13 12:49:51,221 [T10] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-08-13 12:49:51,252 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-08-13 12:49:51,323 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-08-13 12:49:51,326 [T1] INFO  ServerInformationClient
+It takes 82 milliseconds to try to update the server feature list.
+
+2024-08-13 12:49:51,327 [T1] INFO  Config
+Update server features to config.
+
+2024-08-13 12:49:51,351 [T10] INFO  JobService
+Shared Token - No Token
+
+2024-08-13 12:49:51,357 [T10] INFO  JobManager
+Create JobManager instance for job P_사용기업_재무_자동화(Designer_20240813_124950_835)
+
+2024-08-13 12:49:51,363 [T10] INFO  JobRequest
+Job ID : Designer_20240813_124950_835
+Project Path  : C:\Users\2C000013\Documents\Brity RPA Projects\사용기업_재무_자동화1\사용기업_재무_자동화1.proj
+Process Name  : P_사용기업_재무_자동화
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 8128
+
+2024-08-13 12:49:51,366 [T12] INFO  JobRequest
+Start Callback Sender
+
+2024-08-13 12:49:51,366 [T12] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-08-13 12:49:51,408 [T10] DEBUG ProjectManager
+Set Project Information
+
+2024-08-13 12:49:51,434 [T10] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-08-13 12:49:51,435 [T10] INFO  JobRunner
+Initialize Script Engine
+
+2024-08-13 12:49:51,452 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-08-13 12:49:51,470 [T12] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-08-13 12:49:52,293 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-08-13 12:49:52,299 [T12] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-08-13 12:49:52,304 [T10] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-08-13 12:49:52,305 [T10] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-08-13 12:49:52,306 [T16-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-08-13 12:49:52,308 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-08-13 12:49:52,308 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-08-13 12:49:52,315 [T12] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-08-13 12:49:52,316 [T12] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-08-13 12:49:53,407 [T16-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-08-13 12:49:53,487 [T16-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-08-13 12:49:53,554 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_사용기업_재무_자동화
+##############################################################
+6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b
+P_사용기업_재무_자동화
+
+
+2024-08-13 12:49:53,614 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_사용기업_재무_자동화
+**************************************************************
+ - STEP 1: Sab6b86d4023440c9b56b11efdc4fa38b (2/146) - (1/64)
+ - [2] ChromeOpen
+
+
+2024-08-13 12:49:56,599 [T11] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : 하나 이상의 오류가 발생했습니다.
+
+2024-08-13 12:49:59,574 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 2: S8de9ce3f760c4f7fb21f8fcc13a392a6 (3/146) - (2/64)
+ - [3] Block
+
+
+2024-08-13 12:49:59,589 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 3: S526b68826c094ed4a851937eeb000d84 (4/146) - (3/64)
+ - [4] OpenExcel
+
+
+2024-08-13 12:50:01,295 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 4: S7fadf35f11e044ee9fba525d2cfa1947 (5/146) - (4/64)
+ - [5] Click
+
+
+2024-08-13 12:50:01,431 [T11] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-08-13 12:50:02,444 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:02,444 [T11] INFO  UIAEventHandler
+waiting for 961 msec during the screen structure is changing.
+
+2024-08-13 12:50:03,092 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 1
+
+2024-08-13 12:50:03,201 [T11] INFO  UIAEventHandler
+waiting for 210 msec during the screen structure is changing.
+
+2024-08-13 12:50:04,108 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 5: Sbe98a4e79c9241efbd42dc49d88761c7 (6/146) - (5/64)
+ - [6] GetListItems
+
+
+2024-08-13 12:50:05,767 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 6: S97bdb3a0f32a46e0b87e43f28ced1ddf (7/146) - (6/64)
+ - [7] CreateWorkSheet
+
+
+2024-08-13 12:50:05,861 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 7: S165a683df1694ad986b4f9db08dde2d4 (8/146) - (7/64)
+ - [8] For
+
+
+2024-08-13 12:50:05,876 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 8: S869d22c06dce4426893cbdde19dc7dd4 (9/146) - (8/64)
+ - [9] ExecuteScript
+
+
+2024-08-13 12:50:05,892 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 9: Saeb198a1f8aa479d93ff1cc7b83a89e2 (10/146) - (9/64)
+ - [10] WriteRange
+
+
+2024-08-13 12:50:06,018 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 10: Saa80707801d949cda6935f50b7db49d4 (11/146) - (10/64)
+ - [11] WriteRange
+
+
+2024-08-13 12:50:06,049 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 11: S869d22c06dce4426893cbdde19dc7dd4 (9/146) - (10/64)
+ - [9] ExecuteScript
+
+
+2024-08-13 12:50:06,064 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 12: Saeb198a1f8aa479d93ff1cc7b83a89e2 (10/146) - (10/64)
+ - [10] WriteRange
+
+
+2024-08-13 12:50:06,096 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 13: Saa80707801d949cda6935f50b7db49d4 (11/146) - (10/64)
+ - [11] WriteRange
+
+
+2024-08-13 12:50:06,128 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 14: S869d22c06dce4426893cbdde19dc7dd4 (9/146) - (10/64)
+ - [9] ExecuteScript
+
+
+2024-08-13 12:50:06,144 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 15: Saeb198a1f8aa479d93ff1cc7b83a89e2 (10/146) - (10/64)
+ - [10] WriteRange
+
+
+2024-08-13 12:50:06,160 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 16: Saa80707801d949cda6935f50b7db49d4 (11/146) - (10/64)
+ - [11] WriteRange
+
+
+2024-08-13 12:50:06,191 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 17: S869d22c06dce4426893cbdde19dc7dd4 (9/146) - (10/64)
+ - [9] ExecuteScript
+
+
+2024-08-13 12:50:06,205 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 18: Saeb198a1f8aa479d93ff1cc7b83a89e2 (10/146) - (10/64)
+ - [10] WriteRange
+
+
+2024-08-13 12:50:06,221 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 19: Saa80707801d949cda6935f50b7db49d4 (11/146) - (10/64)
+ - [11] WriteRange
+
+
+2024-08-13 12:50:06,251 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 20: S869d22c06dce4426893cbdde19dc7dd4 (9/146) - (10/64)
+ - [9] ExecuteScript
+
+
+2024-08-13 12:50:06,267 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 21: Saeb198a1f8aa479d93ff1cc7b83a89e2 (10/146) - (10/64)
+ - [10] WriteRange
+
+
+2024-08-13 12:50:06,283 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 22: Saa80707801d949cda6935f50b7db49d4 (11/146) - (10/64)
+ - [11] WriteRange
+
+
+2024-08-13 12:50:06,315 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 23: S869d22c06dce4426893cbdde19dc7dd4 (9/146) - (10/64)
+ - [9] ExecuteScript
+
+
+2024-08-13 12:50:06,331 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 24: Saeb198a1f8aa479d93ff1cc7b83a89e2 (10/146) - (10/64)
+ - [10] WriteRange
+
+
+2024-08-13 12:50:06,362 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 25: Saa80707801d949cda6935f50b7db49d4 (11/146) - (10/64)
+ - [11] WriteRange
+
+
+2024-08-13 12:50:06,393 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 26: S869d22c06dce4426893cbdde19dc7dd4 (9/146) - (10/64)
+ - [9] ExecuteScript
+
+
+2024-08-13 12:50:06,409 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 27: Saeb198a1f8aa479d93ff1cc7b83a89e2 (10/146) - (10/64)
+ - [10] WriteRange
+
+
+2024-08-13 12:50:06,441 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 28: Saa80707801d949cda6935f50b7db49d4 (11/146) - (10/64)
+ - [11] WriteRange
+
+
+2024-08-13 12:50:06,473 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 29: S869d22c06dce4426893cbdde19dc7dd4 (9/146) - (10/64)
+ - [9] ExecuteScript
+
+
+2024-08-13 12:50:06,489 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 30: Saeb198a1f8aa479d93ff1cc7b83a89e2 (10/146) - (10/64)
+ - [10] WriteRange
+
+
+2024-08-13 12:50:06,505 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 31: Saa80707801d949cda6935f50b7db49d4 (11/146) - (10/64)
+ - [11] WriteRange
+
+
+2024-08-13 12:50:06,537 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 32: S75fadb99c0b5471881aa53b5512c0a8b (12/146) - (11/64)
+ - [12] End-For
+
+
+2024-08-13 12:50:06,553 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 33: See72873a46064535adb32d588aba0e61 (13/146) - (12/64)
+ - [13] KeyInput
+
+
+2024-08-13 12:50:08,733 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 34: S142fbd5d0d6948baa28c008242404313 (14/146) - (13/64)
+ - [14] Click
+
+
+2024-08-13 12:50:09,858 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 35: S4f6275dd080f4bd8b5dd90c133eca4b1 (15/146) - (14/64)
+ - [15] GetGridItems
+
+
+2024-08-13 12:50:10,045 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:10,045 [T11] INFO  UIAEventHandler
+waiting for 136 msec during the screen structure is changing.
+
+2024-08-13 12:50:11,382 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 36: S748d553946e0402a8004f08f87f8647f (16/146) - (15/64)
+ - [16] CreateWorkSheet
+
+
+2024-08-13 12:50:11,445 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 37: S835d66903fba47979f1a4c9f4bbdd97f (17/146) - (16/64)
+ - [17] WriteRange
+
+
+2024-08-13 12:50:11,507 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 38: Sf19a3f504ea249a9b605a47eeec743ae (18/146) - (17/64)
+ - [18] ReplaceString
+
+
+2024-08-13 12:50:11,586 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 39: S78e450ccef0c4a1f8e20c426fc6a1794 (19/146) - (18/64)
+ - [19] KeyInput
+
+
+2024-08-13 12:50:13,732 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 40: S5b773742637146d58a48ef8328dfa16f (20/146) - (19/64)
+ - [20] Click
+
+
+2024-08-13 12:50:14,145 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:14,145 [T19] INFO  UIAEventHandler
+waiting for 63 msec during the screen structure is changing.
+
+2024-08-13 12:50:14,969 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 41: S1ef360d14ef14db895236dbf0d6f4d4a (21/146) - (20/64)
+ - [21] GetListItems
+
+
+2024-08-13 12:50:15,048 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:15,048 [T19] INFO  UIAEventHandler
+waiting for 56 msec during the screen structure is changing.
+
+2024-08-13 12:50:16,526 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:16,526 [T19] INFO  UIAEventHandler
+waiting for 71 msec during the screen structure is changing.
+
+2024-08-13 12:50:16,844 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 42: S561749d8bfb54ca7adb94dc96f8d21f8 (22/146) - (21/64)
+ - [22] CreateWorkSheet
+
+
+2024-08-13 12:50:17,221 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 43: S560ed549868541468c6f1e4033b256d6 (23/146) - (22/64)
+ - [23] For
+
+
+2024-08-13 12:50:17,239 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 44: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (23/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:17,252 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 45: S937af7bc446645349bc2f704ae577736 (25/146) - (24/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:17,300 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 46: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:17,362 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 47: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (25/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:17,377 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 48: S937af7bc446645349bc2f704ae577736 (25/146) - (25/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:17,519 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 49: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:17,566 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 50: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (25/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:17,581 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 51: S937af7bc446645349bc2f704ae577736 (25/146) - (25/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:17,629 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 52: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:17,661 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 53: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (25/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:17,676 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 54: S937af7bc446645349bc2f704ae577736 (25/146) - (25/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:17,707 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 55: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:17,752 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 56: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (25/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:17,768 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 57: S937af7bc446645349bc2f704ae577736 (25/146) - (25/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:17,813 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 58: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:17,859 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 59: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (25/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:17,874 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 60: S937af7bc446645349bc2f704ae577736 (25/146) - (25/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:17,905 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 61: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:17,936 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 62: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (25/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:17,952 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 63: S937af7bc446645349bc2f704ae577736 (25/146) - (25/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:17,999 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 64: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:18,030 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 65: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (25/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:18,046 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 66: S937af7bc446645349bc2f704ae577736 (25/146) - (25/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:18,078 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 67: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:18,109 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 68: Sd1baf177a5bb4082a9b795d3799daf80 (24/146) - (25/64)
+ - [24] ExecuteScript
+
+
+2024-08-13 12:50:18,125 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 69: S937af7bc446645349bc2f704ae577736 (25/146) - (25/64)
+ - [25] WriteRange
+
+
+2024-08-13 12:50:18,156 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 70: S99054a196f2b41359e8bae94509f0eb3 (26/146) - (25/64)
+ - [26] WriteRange
+
+
+2024-08-13 12:50:18,187 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 71: S5bd96c4d060a4687b6ebfce1f41c8b2e (27/146) - (26/64)
+ - [27] End-For
+
+
+2024-08-13 12:50:18,203 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 72: S78c4c085c66646108860adc36be3e9bd (28/146) - (27/64)
+ - [28] KeyInput
+
+
+2024-08-13 12:50:20,358 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 73: S5e17407a4a2247398b23e9faadf837dd (29/146) - (28/64)
+ - [29] Click
+
+
+2024-08-13 12:50:21,515 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 74: S6714fc674ff54c0f988c76dc0470558c (30/146) - (29/64)
+ - [30] GetGridItems
+
+
+2024-08-13 12:50:21,704 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:21,704 [T19] INFO  UIAEventHandler
+waiting for 167 msec during the screen structure is changing.
+
+2024-08-13 12:50:22,397 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:22,397 [T19] INFO  UIAEventHandler
+waiting for 86 msec during the screen structure is changing.
+
+2024-08-13 12:50:22,933 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 75: S1781534bfa9645c080bea1e4e5417fc1 (31/146) - (30/64)
+ - [31] CreateWorkSheet
+
+
+2024-08-13 12:50:23,013 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 76: S8d28bf5c524a4f25a010857a808dec36 (32/146) - (31/64)
+ - [32] WriteRange
+
+
+2024-08-13 12:50:23,059 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 77: S782637a79a9543bba9b5903224295069 (33/146) - (32/64)
+ - [33] ReplaceString
+
+
+2024-08-13 12:50:23,121 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 78: S755f943e999b4b689e99e0fbe352b51d (34/146) - (33/64)
+ - [34] KeyInput
+
+
+2024-08-13 12:50:25,274 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 79: S52d63ceb746447cf8fbc179237292252 (35/146) - (34/64)
+ - [35] Click
+
+
+2024-08-13 12:50:25,736 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:25,736 [T11] INFO  UIAEventHandler
+waiting for 112 msec during the screen structure is changing.
+
+2024-08-13 12:50:26,551 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 80: S8ebc4f718c5646a4a4757323d3077d1f (36/146) - (35/64)
+ - [36] GetListItems
+
+
+2024-08-13 12:50:26,626 [T4] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:26,626 [T4] INFO  UIAEventHandler
+waiting for 43 msec during the screen structure is changing.
+
+2024-08-13 12:50:28,235 [T4] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:28,235 [T4] INFO  UIAEventHandler
+waiting for 72 msec during the screen structure is changing.
+
+2024-08-13 12:50:28,597 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 81: Se013b580df984cc495d4bd6c5f01658d (37/146) - (36/64)
+ - [37] CreateWorkSheet
+
+
+2024-08-13 12:50:28,673 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 82: S712dc7fa077a4b7aaaed108a4d7600a5 (38/146) - (37/64)
+ - [38] For
+
+
+2024-08-13 12:50:28,688 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 83: S6f690693078341ff8b11cedfc7af138e (39/146) - (38/64)
+ - [39] ExecuteScript
+
+
+2024-08-13 12:50:28,704 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 84: Sad9d993cbdbd4bbfa56d4b37fb834c5a (40/146) - (39/64)
+ - [40] WriteRange
+
+
+2024-08-13 12:50:28,768 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 85: S5f918fae17e7437293b98e57f8c56500 (41/146) - (40/64)
+ - [41] WriteRange
+
+
+2024-08-13 12:50:28,799 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 86: S6f690693078341ff8b11cedfc7af138e (39/146) - (40/64)
+ - [39] ExecuteScript
+
+
+2024-08-13 12:50:28,814 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 87: Sad9d993cbdbd4bbfa56d4b37fb834c5a (40/146) - (40/64)
+ - [40] WriteRange
+
+
+2024-08-13 12:50:28,846 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 88: S5f918fae17e7437293b98e57f8c56500 (41/146) - (40/64)
+ - [41] WriteRange
+
+
+2024-08-13 12:50:28,878 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 89: S6f690693078341ff8b11cedfc7af138e (39/146) - (40/64)
+ - [39] ExecuteScript
+
+
+2024-08-13 12:50:28,894 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 90: Sad9d993cbdbd4bbfa56d4b37fb834c5a (40/146) - (40/64)
+ - [40] WriteRange
+
+
+2024-08-13 12:50:28,926 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 91: S5f918fae17e7437293b98e57f8c56500 (41/146) - (40/64)
+ - [41] WriteRange
+
+
+2024-08-13 12:50:28,956 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 92: S6f690693078341ff8b11cedfc7af138e (39/146) - (40/64)
+ - [39] ExecuteScript
+
+
+2024-08-13 12:50:28,971 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 93: Sad9d993cbdbd4bbfa56d4b37fb834c5a (40/146) - (40/64)
+ - [40] WriteRange
+
+
+2024-08-13 12:50:29,002 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 94: S5f918fae17e7437293b98e57f8c56500 (41/146) - (40/64)
+ - [41] WriteRange
+
+
+2024-08-13 12:50:29,049 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 95: S6f690693078341ff8b11cedfc7af138e (39/146) - (40/64)
+ - [39] ExecuteScript
+
+
+2024-08-13 12:50:29,065 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 96: Sad9d993cbdbd4bbfa56d4b37fb834c5a (40/146) - (40/64)
+ - [40] WriteRange
+
+
+2024-08-13 12:50:29,097 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 97: S5f918fae17e7437293b98e57f8c56500 (41/146) - (40/64)
+ - [41] WriteRange
+
+
+2024-08-13 12:50:29,143 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 98: S6f690693078341ff8b11cedfc7af138e (39/146) - (40/64)
+ - [39] ExecuteScript
+
+
+2024-08-13 12:50:29,159 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 99: Sad9d993cbdbd4bbfa56d4b37fb834c5a (40/146) - (40/64)
+ - [40] WriteRange
+
+
+2024-08-13 12:50:29,190 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 100: S5f918fae17e7437293b98e57f8c56500 (41/146) - (40/64)
+ - [41] WriteRange
+
+
+2024-08-13 12:50:29,221 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 101: S6f690693078341ff8b11cedfc7af138e (39/146) - (40/64)
+ - [39] ExecuteScript
+
+
+2024-08-13 12:50:29,237 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 102: Sad9d993cbdbd4bbfa56d4b37fb834c5a (40/146) - (40/64)
+ - [40] WriteRange
+
+
+2024-08-13 12:50:29,267 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 103: S5f918fae17e7437293b98e57f8c56500 (41/146) - (40/64)
+ - [41] WriteRange
+
+
+2024-08-13 12:50:29,299 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 104: S6f690693078341ff8b11cedfc7af138e (39/146) - (40/64)
+ - [39] ExecuteScript
+
+
+2024-08-13 12:50:29,315 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 105: Sad9d993cbdbd4bbfa56d4b37fb834c5a (40/146) - (40/64)
+ - [40] WriteRange
+
+
+2024-08-13 12:50:29,346 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 106: S5f918fae17e7437293b98e57f8c56500 (41/146) - (40/64)
+ - [41] WriteRange
+
+
+2024-08-13 12:50:29,376 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 107: Sa18dc5c1fad644b59b00ba802aa550f0 (42/146) - (41/64)
+ - [42] End-For
+
+
+2024-08-13 12:50:29,392 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 108: S89dc2a6ee0f44c89971357bf94a85181 (43/146) - (42/64)
+ - [43] KeyInput
+
+
+2024-08-13 12:50:31,533 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 109: S8d8b74e9ce4a413bbc3236408d96b20d (44/146) - (43/64)
+ - [44] Click
+
+
+2024-08-13 12:50:32,704 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 110: Scd3dc7af6b3a49bb9fcab5d2da41665c (45/146) - (44/64)
+ - [45] GetGridItems
+
+
+2024-08-13 12:50:32,876 [T4] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:32,876 [T4] INFO  UIAEventHandler
+waiting for 149 msec during the screen structure is changing.
+
+2024-08-13 12:50:33,597 [T4] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:33,597 [T4] INFO  UIAEventHandler
+waiting for 71 msec during the screen structure is changing.
+
+2024-08-13 12:50:34,118 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 111: Sf174769fe0a540c5af2feaa0669cb86f (46/146) - (45/64)
+ - [46] CreateWorkSheet
+
+
+2024-08-13 12:50:34,198 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 112: Se6f42b7becad47d2a64ea98b4e5f2551 (47/146) - (46/64)
+ - [47] WriteRange
+
+
+2024-08-13 12:50:34,246 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 113: S9f58c0f452264d7d9417f07084a2eb3c (48/146) - (47/64)
+ - [48] ReplaceString
+
+
+2024-08-13 12:50:34,310 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 114: Sa7c27ff225ef420da04c5718edecc2a2 (49/146) - (48/64)
+ - [49] KeyInput
+
+
+2024-08-13 12:50:36,452 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 115: S1aca3e8be4fa4eba9a1f79c53ffddace (50/146) - (49/64)
+ - [50] Click
+
+
+2024-08-13 12:50:37,614 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 116: Se2d0fb050d10403485926287eb9cc050 (51/146) - (50/64)
+ - [51] GetListItems
+
+
+2024-08-13 12:50:37,811 [T4] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:37,811 [T4] INFO  UIAEventHandler
+waiting for 159 msec during the screen structure is changing.
+
+2024-08-13 12:50:39,119 [T4] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:39,119 [T4] INFO  UIAEventHandler
+waiting for 109 msec during the screen structure is changing.
+
+2024-08-13 12:50:39,374 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 117: S109c7f4df4d847338c779b6c1cebad37 (52/146) - (51/64)
+ - [52] CreateWorkSheet
+
+
+2024-08-13 12:50:39,454 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 118: S7c27cba87f33483f9d26528fa8cba9ef (53/146) - (52/64)
+ - [53] For
+
+
+2024-08-13 12:50:39,470 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 119: Sbb88541f26bd4b91b64748ac92fc2313 (54/146) - (53/64)
+ - [54] ExecuteScript
+
+
+2024-08-13 12:50:39,486 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 120: Sadb4b92402ed4c9e9c6bb864cdf299d4 (55/146) - (54/64)
+ - [55] WriteRange
+
+
+2024-08-13 12:50:39,517 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 121: Sd8afa0e5592d4297a05bb1b8a0d43258 (56/146) - (55/64)
+ - [56] WriteRange
+
+
+2024-08-13 12:50:39,562 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 122: Sbb88541f26bd4b91b64748ac92fc2313 (54/146) - (55/64)
+ - [54] ExecuteScript
+
+
+2024-08-13 12:50:39,578 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 123: Sadb4b92402ed4c9e9c6bb864cdf299d4 (55/146) - (55/64)
+ - [55] WriteRange
+
+
+2024-08-13 12:50:39,610 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 124: Sd8afa0e5592d4297a05bb1b8a0d43258 (56/146) - (55/64)
+ - [56] WriteRange
+
+
+2024-08-13 12:50:39,658 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 125: Sbb88541f26bd4b91b64748ac92fc2313 (54/146) - (55/64)
+ - [54] ExecuteScript
+
+
+2024-08-13 12:50:39,674 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 126: Sadb4b92402ed4c9e9c6bb864cdf299d4 (55/146) - (55/64)
+ - [55] WriteRange
+
+
+2024-08-13 12:50:39,705 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 127: Sd8afa0e5592d4297a05bb1b8a0d43258 (56/146) - (55/64)
+ - [56] WriteRange
+
+
+2024-08-13 12:50:39,735 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 128: Sbb88541f26bd4b91b64748ac92fc2313 (54/146) - (55/64)
+ - [54] ExecuteScript
+
+
+2024-08-13 12:50:39,751 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 129: Sadb4b92402ed4c9e9c6bb864cdf299d4 (55/146) - (55/64)
+ - [55] WriteRange
+
+
+2024-08-13 12:50:39,783 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 130: Sd8afa0e5592d4297a05bb1b8a0d43258 (56/146) - (55/64)
+ - [56] WriteRange
+
+
+2024-08-13 12:50:39,815 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 131: Sbb88541f26bd4b91b64748ac92fc2313 (54/146) - (55/64)
+ - [54] ExecuteScript
+
+
+2024-08-13 12:50:39,831 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 132: Sadb4b92402ed4c9e9c6bb864cdf299d4 (55/146) - (55/64)
+ - [55] WriteRange
+
+
+2024-08-13 12:50:39,863 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 133: Sd8afa0e5592d4297a05bb1b8a0d43258 (56/146) - (55/64)
+ - [56] WriteRange
+
+
+2024-08-13 12:50:39,911 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 134: Sbb88541f26bd4b91b64748ac92fc2313 (54/146) - (55/64)
+ - [54] ExecuteScript
+
+
+2024-08-13 12:50:39,927 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 135: Sadb4b92402ed4c9e9c6bb864cdf299d4 (55/146) - (55/64)
+ - [55] WriteRange
+
+
+2024-08-13 12:50:39,959 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 136: Sd8afa0e5592d4297a05bb1b8a0d43258 (56/146) - (55/64)
+ - [56] WriteRange
+
+
+2024-08-13 12:50:39,991 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 137: Sbb88541f26bd4b91b64748ac92fc2313 (54/146) - (55/64)
+ - [54] ExecuteScript
+
+
+2024-08-13 12:50:40,007 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 138: Sadb4b92402ed4c9e9c6bb864cdf299d4 (55/146) - (55/64)
+ - [55] WriteRange
+
+
+2024-08-13 12:50:40,039 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 139: Sd8afa0e5592d4297a05bb1b8a0d43258 (56/146) - (55/64)
+ - [56] WriteRange
+
+
+2024-08-13 12:50:40,071 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 140: Sbb88541f26bd4b91b64748ac92fc2313 (54/146) - (55/64)
+ - [54] ExecuteScript
+
+
+2024-08-13 12:50:40,087 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 141: Sadb4b92402ed4c9e9c6bb864cdf299d4 (55/146) - (55/64)
+ - [55] WriteRange
+
+
+2024-08-13 12:50:40,133 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 142: Sd8afa0e5592d4297a05bb1b8a0d43258 (56/146) - (55/64)
+ - [56] WriteRange
+
+
+2024-08-13 12:50:40,180 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 143: S19e706cd754a482ab7097f3340a4d895 (57/146) - (56/64)
+ - [57] End-For
+
+
+2024-08-13 12:50:40,195 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 144: S68511a4b268a4a5186ee6e3b3e2f5163 (58/146) - (57/64)
+ - [58] KeyInput
+
+
+2024-08-13 12:50:42,335 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 145: S20d8e6b703c14c8aaccac6541361ddc3 (59/146) - (58/64)
+ - [59] Click
+
+
+2024-08-13 12:50:43,480 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 146: S3e6543a0a9e94847904def2c059db9ea (60/146) - (59/64)
+ - [60] GetGridItems
+
+
+2024-08-13 12:50:43,665 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:43,665 [T24] INFO  UIAEventHandler
+waiting for 160 msec during the screen structure is changing.
+
+2024-08-13 12:50:44,745 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-08-13 12:50:44,745 [T24] INFO  UIAEventHandler
+waiting for 78 msec during the screen structure is changing.
+
+2024-08-13 12:50:45,269 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 147: S57cce90f7f004de8b8ede2c76e2fab6a (61/146) - (60/64)
+ - [61] CreateWorkSheet
+
+
+2024-08-13 12:50:45,364 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 148: S1318ee3bceb544f4a22a443b57fc0f2a (62/146) - (61/64)
+ - [62] WriteRange
+
+
+2024-08-13 12:50:45,411 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 149: S3b088beada8e47a0a30fb57417436036 (63/146) - (62/64)
+ - [63] ReplaceString
+
+
+2024-08-13 12:50:45,473 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 150: Sed3d74b8724e41b8b6ac62f157604066 (64/146) - (63/64)
+ - [64] KeyInput
+
+
+2024-08-13 12:50:47,624 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 151: Sa4edef80221243f884ea808b4865c701 (65/146) - (64/64)
+ - [65] End-Block
+
+
+2024-08-13 12:50:47,624 [T16-ScriptEngine] INFO  JobRunner
+[PASS] TASK: P_사용기업_재무_자동화
+
+2024-08-13 12:50:47,630 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_사용기업_재무_자동화
+##############################################################
+6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b
+P_사용기업_재무_자동화
+
+
+2024-08-13 12:50:47,646 [T16-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2024-08-13 12:50:47,647 [T16-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2024-08-13 12:50:47,651 [T16-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-08-13 12:50:47,688 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-08-13 12:50:47,689 [T23] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-08-13 12:50:47,691 [T16-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-08-13 12:50:47,702 [T16-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-08-13 12:50:47,731 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-08-13 12:50:47,734 [T16-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-08-13 12:50:47,736 [T16-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-08-13 12:50:47,737 [T16-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-08-13 12:50:47,738 [T16-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-08-13 12:50:47,747 [T16-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-08-13 12:50:47,748 [T16-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-08-13 12:50:47,751 [T16-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-08-13 12:50:47,751 [T16-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2024-08-13 12:50:47,751 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2024-08-13 12:50:47,751 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2024-08-13 12:50:47,751 [T16-ScriptEngine] INFO  JobRequest
+Update skipped current step informations.
+
+2024-08-13 12:50:47,764 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-08-13 12:50:47,767 [T12] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2024-08-13 12:50:47,768 [T12] INFO  JobRequest
+Callback - EngineClosed
+
+2024-08-13 12:50:47,769 [T12] INFO  JobService
+Disconnect agent service
+
+2024-08-13 12:50:47,770 [T12] DEBUG JobRequest
+End of Callback Sender
+
+2024-08-13 12:50:47,783 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+
+2024-08-13 12:50:47,785 [T16-ScriptEngine] INFO  JobRunner
+RunProcess end
+
