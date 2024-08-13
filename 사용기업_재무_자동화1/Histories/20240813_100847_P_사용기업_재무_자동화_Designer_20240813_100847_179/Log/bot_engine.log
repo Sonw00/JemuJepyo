@@ -1,0 +1,560 @@
+﻿2024-08-13 10:08:03,631 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-08-13 오전 10:08:03
+EngineID: D_20240813_100802_921
+PID : 13504
+PPID: 8128
+Working Directory: C:\Users\2C000013\AppData\Roaming\Brity RPA Designer
+
+2024-08-13 10:08:03,648 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-08-13 10:08:03,880 [T1] INFO  Config
+Initialize Config
+
+2024-08-13 10:08:03,920 [T1] DEBUG Config
+Config Loaded
+
+2024-08-13 10:08:03,921 [T1] DEBUG Config
+Backup config file.
+
+2024-08-13 10:08:03,930 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-08-13 10:08:03,934 [T1] INFO  Config
+Initialize Resource Config
+
+2024-08-13 10:08:03,958 [T1] DEBUG Config
+Refresh Language Information
+
+2024-08-13 10:08:04,045 [T1] INFO  Config
+All Config Initialized.
+
+2024-08-13 10:08:04,052 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-08-13 10:08:04,055 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-08-13 10:08:04,062 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-08-13 10:08:04,099 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-08-13 10:08:04,103 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-08-13 10:08:04,130 [T5] DEBUG JobService
+Connect to agent service
+
+2024-08-13 10:08:04,158 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-08-13 10:08:04,158 [T5] DEBUG JobService
+Open connection
+
+2024-08-13 10:08:04,164 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-08-13 10:08:04,173 [T5] DEBUG JobService
+Register engine to agent
+
+2024-08-13 10:08:04,173 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-08-13 10:08:04,187 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-08-13 10:08:04,188 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-08-13 10:08:04,188 [T5] DEBUG JobService
+Owner Process PID: 8128
+
+2024-08-13 10:08:04,191 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-08-13 10:08:04,472 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-08-13 10:08:04,656 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-08-13 10:08:04,795 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-08-13 10:08:04,902 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-08-13 10:08:04,990 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-08-13 10:08:05,046 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-08-13 10:08:05,238 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-08-13 10:08:05,303 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-08-13 10:08:05,398 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-08-13 10:08:05,488 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-08-13 10:08:05,575 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-08-13 10:08:05,653 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-08-13 10:08:05,760 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-08-13 10:08:05,888 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-08-13 10:08:05,918 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-08-13 10:08:06,025 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-08-13 10:08:06,093 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-08-13 10:08:06,177 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-08-13 10:08:06,193 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-08-13 10:08:06,209 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-08-13 10:08:06,225 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-08-13 10:08:06,241 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-08-13 10:08:06,257 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-08-13 10:08:06,272 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-08-13 10:08:06,288 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-08-13 10:08:06,303 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-08-13 10:08:06,319 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-08-13 10:08:06,335 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-08-13 10:08:06,351 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-08-13 10:08:06,367 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-08-13 10:08:06,383 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-08-13 10:08:06,399 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-08-13 10:08:06,415 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-08-13 10:08:06,431 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-08-13 10:08:06,441 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-08-13 10:08:06,704 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-08-13 10:08:06,716 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240813_100802_921 -runtype ProcRunner -ppid 8128
+
+2024-08-13 10:08:06,717 [T1] DEBUG Config
+Refresh Language Information
+
+2024-08-13 10:08:06,717 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-08-13 10:08:47,359 [T7] INFO  JobService
+Start Job: P_사용기업_재무_자동화 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-08-13 10:08:47",
+  "EndTime": null,
+  "JobId": "Designer_20240813_100847_179",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\P_사용기업_재무_자동화.proc",
+  "ProcessId": "6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b",
+  "ProcessVer": "1.0",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 8128,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240813_100802_921",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_100847_P_사용기업_재무_자동화_Designer_20240813_100847_179",
+  "JobLogDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_100847_P_사용기업_재무_자동화_Designer_20240813_100847_179\\Log",
+  "JobScreenshotDir": "C:\\Users\\2C000013\\Documents\\Brity RPA Projects\\사용기업_재무_자동화1\\Histories\\20240813_100847_P_사용기업_재무_자동화_Designer_20240813_100847_179\\Log\\Screenshot"
+}
+
+2024-08-13 10:08:47,512 [T3] DEBUG JobService
+Waiting library loading...
+
+2024-08-13 10:08:47,514 [T3] DEBUG Config
+Reload User Settings
+
+2024-08-13 10:08:47,515 [T3] INFO  JobService
+Config Loading Completed.
+
+2024-08-13 10:08:47,515 [T3] DEBUG JobService
+Config Loading Time: 2 ms.
+
+2024-08-13 10:08:47,520 [T3] DEBUG JobService
+Check Shared Token
+
+2024-08-13 10:08:47,521 [T3] DEBUG TokenManager
+Load connection token
+
+2024-08-13 10:08:47,523 [T3] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-08-13 10:08:47,582 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-08-13 10:08:47,671 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-08-13 10:08:47,674 [T1] INFO  ServerInformationClient
+It takes 128 milliseconds to try to update the server feature list.
+
+2024-08-13 10:08:47,675 [T1] INFO  Config
+Update server features to config.
+
+2024-08-13 10:08:47,694 [T3] INFO  JobService
+Shared Token - No Token
+
+2024-08-13 10:08:47,700 [T3] INFO  JobManager
+Create JobManager instance for job P_사용기업_재무_자동화(Designer_20240813_100847_179)
+
+2024-08-13 10:08:47,706 [T3] INFO  JobRequest
+Job ID : Designer_20240813_100847_179
+Project Path  : C:\Users\2C000013\Documents\Brity RPA Projects\사용기업_재무_자동화1\사용기업_재무_자동화1.proj
+Process Name  : P_사용기업_재무_자동화
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 8128
+
+2024-08-13 10:08:47,710 [T10] INFO  JobRequest
+Start Callback Sender
+
+2024-08-13 10:08:47,710 [T10] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-08-13 10:08:47,758 [T3] DEBUG ProjectManager
+Set Project Information
+
+2024-08-13 10:08:47,782 [T3] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-08-13 10:08:47,783 [T3] INFO  JobRunner
+Initialize Script Engine
+
+2024-08-13 10:08:47,800 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-08-13 10:08:47,827 [T10] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-08-13 10:08:48,650 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-08-13 10:08:48,661 [T10] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-08-13 10:08:48,661 [T3] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-08-13 10:08:48,662 [T3] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-08-13 10:08:48,664 [T15-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-08-13 10:08:48,666 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-08-13 10:08:48,666 [T15-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-08-13 10:08:48,677 [T10] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-08-13 10:08:48,679 [T10] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-08-13 10:08:49,736 [T15-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-08-13 10:08:49,815 [T15-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-08-13 10:08:49,843 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_사용기업_재무_자동화
+##############################################################
+6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b
+P_사용기업_재무_자동화
+
+
+2024-08-13 10:08:49,911 [T15-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_사용기업_재무_자동화
+**************************************************************
+ - STEP 1: S99942d1cd2764bb8a36cf044c2490843 (1/8) - (1/7)
+ - [1] OpenBrowser
+
+
+2024-08-13 10:08:50,089 [T15-ScriptEngine] INFO  UiaAppHelper
+Open App: C:\Program Files\Internet Explorer\iexplore.exe
+Arguments: https://sonw00.github.io/
+Derived App: iexplore
+
+2024-08-13 10:08:50,254 [T15-ScriptEngine] INFO  UiaAppHelper
+Process(5544) Started.
+
+2024-08-13 10:08:50,757 [T15-ScriptEngine] WARN  UiaAppHelper
+The newly launched process(PID:5544) is immediately terminated.
+
+2024-08-13 10:08:51,279 [T15-ScriptEngine] DEBUG UiaAppHelper
+The number of new application windows: 0
+
+2024-08-13 10:08:51,802 [T15-ScriptEngine] DEBUG UiaAppHelper
+The number of new application windows: 0
+
+2024-08-13 10:08:51,803 [T15-ScriptEngine] ERROR UiaAppHelper
+앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: https://sonw00.github.io/
+ - Derived App: iexplore
+ - WaitTime: 1
+
+2024-08-13 10:08:56,219 [T15-ScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_사용기업_재무_자동화
+Step: OpenBrowser (1/8)
+
+Error: 앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: https://sonw00.github.io/
+ - Derived App: iexplore
+ - WaitTime: 1
+
+2024-08-13 10:08:56,224 [T15-ScriptEngine] FINE  JobRunner
+RunTask ExceptionOccured. TASK: P_사용기업_재무_자동화 => 앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: https://sonw00.github.io/
+ - Derived App: iexplore
+ - WaitTime: 1
+
+2024-08-13 10:08:56,251 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_사용기업_재무_자동화
+##############################################################
+6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b
+P_사용기업_재무_자동화
+
+
+2024-08-13 10:08:56,265 [T15-ScriptEngine] ERROR JobRunner
+Process: P_사용기업_재무_자동화
+Step: OpenBrowser (1/8)
+
+앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: https://sonw00.github.io/
+ - Derived App: iexplore
+ - WaitTime: 1
+
+[CallStack]
+  - P_사용기업_재무_자동화: [1] OpenBrowser
+
+[Global Variables]
+  - 경로 = 'C:\\Users\\2C000013\\Desktop\\' (String)
+  - RESULT = <null> (Any)
+
+[P_사용기업_재무_자동화 Variables]
+  - excel = <undefined> (Undefined)
+  - table = <undefined> (Undefined)
+  - main = <undefined> (Undefined)
+
+2024-08-13 10:08:56,266 [T15-ScriptEngine] DEBUG JobManager
+Set Result State: ExceptionOccured
+
+2024-08-13 10:09:01,309 [T15-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-08-13 10:09:01,369 [T15-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-08-13 10:09:01,370 [T15-ScriptEngine] DEBUG JobRunner
+OnProcessFailed
+
+2024-08-13 10:09:01,370 [T11] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-08-13 10:09:01,371 [T15-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-08-13 10:09:01,373 [T15-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-08-13 10:09:01,374 [T15-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-08-13 10:09:01,375 [T15-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-08-13 10:09:01,379 [T15-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-08-13 10:09:01,379 [T15-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-08-13 10:09:01,382 [T15-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-08-13 10:09:01,383 [T15-ScriptEngine] DEBUG JobRunner
+SendJobResult: ExceptionOccured
+
+2024-08-13 10:09:01,383 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: ExceptionOccured
+##############################################################
+Process: P_사용기업_재무_자동화
+Step: OpenBrowser (1/8)
+
+앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: https://sonw00.github.io/
+ - Derived App: iexplore
+ - WaitTime: 1
+
+[CallStack]
+  - P_사용기업_재무_자동화: [1] OpenBrowser
+
+[Global Variables]
+  - 경로 = 'C:\\Users\\2C000013\\Desktop\\' (String)
+  - RESULT = <null> (Any)
+
+[P_사용기업_재무_자동화 Variables]
+  - excel = <undefined> (Undefined)
+  - table = <undefined> (Undefined)
+  - main = <undefined> (Undefined)
+
+
+2024-08-13 10:09:01,383 [T15-ScriptEngine] INFO  JobRequest
+Last job life cycle state: ExceptionOccured
+
+2024-08-13 10:09:01,400 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-08-13 10:09:01,413 [T10] DEBUG JobRequest
+Callback - State: ExceptionOccured
+Process: P_사용기업_재무_자동화
+Step: OpenBrowser (1/8)
+
+앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: https://sonw00.github.io/
+ - Derived App: iexplore
+ - WaitTime: 1
+
+[CallStack]
+  - P_사용기업_재무_자동화: [1] OpenBrowser
+
+[Global Variables]
+  - 경로 = 'C:\\Users\\2C000013\\Desktop\\' (String)
+  - RESULT = <null> (Any)
+
+[P_사용기업_재무_자동화 Variables]
+  - excel = <undefined> (Undefined)
+  - table = <undefined> (Undefined)
+  - main = <undefined> (Undefined)
+
+2024-08-13 10:09:01,429 [T15-ScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-08-13 10:09:01,429 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+
+2024-08-13 10:09:01,464 [T10] INFO  JobRequest
+Callback - EngineClosed
+
+2024-08-13 10:09:01,465 [T10] INFO  JobService
+Disconnect agent service
+
+2024-08-13 10:09:01,466 [T10] DEBUG JobRequest
+End of Callback Sender
+

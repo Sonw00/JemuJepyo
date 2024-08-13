@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="9ca48709-f79f-4144-b101-e11e36eb5fac" name="P_사용기업_재무_자동화" result="Stop" detail="Process: P_사용기업_재무_자동화&#xA;Step: OpenBrowser (1/8)&#xA;&#xA;Stopped by User" start="2024-08-13T00:53:04.088" end="2024-08-13T00:53:11.544" jobId="Designer_20240813_095301_054">
+  <Step id="S99942d1cd2764bb8a36cf044c2490843" taskName="P_사용기업_재무_자동화" type="Net" name="OpenBrowser" displayName="OpenBrowser" callDepth="1" depth="1" num="1" result="Stop" start="2024-08-13T00:53:04.150" end="2024-08-13T00:53:11.543" displayTime="7.4s">
+    <Variables>
+      <Variable name="main" scope="Normal" owner="P_사용기업_재무_자동화" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="[output] this.main" runtimeType="String" key="HTML_BrowserID" displayKey="Browser ID" visible="true" required="false" />
+      <Property value="'file:///C://rpa//main.html'" runtimeType="String" key="HTML_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="HTML_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="HTML_WaitTimeSec" displayKey="WaitTime(Sec)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="DESIGNER-HO8M8" />
+  </JobInfo>
+</Result>

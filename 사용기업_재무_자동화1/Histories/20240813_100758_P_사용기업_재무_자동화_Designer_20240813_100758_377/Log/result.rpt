@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b" name="P_사용기업_재무_자동화" result="Stop" detail="Process: P_사용기업_재무_자동화&#xA;Step: Click (3/8)&#xA;&#xA;Stopped by User" start="2024-08-13T01:08:01.157" end="2024-08-13T01:08:01.635" jobId="Designer_20240813_100758_377">
+  <Step id="S31efeedc9dd0468b82c37a162c65dc52" taskName="P_사용기업_재무_자동화" type="Win" name="Click" displayName="Click" callDepth="1" depth="1" num="3" result="Stop" start="2024-08-13T01:08:01.235" end="2024-08-13T01:08:01.634" displayTime="0.4s">
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (1번부터 시작)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="8648" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'기업 정보 및 재무제표 - Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="앱 객체 타입" visible="false" required="false" />
+      <Property value="132770" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8,-8,1936,1176" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Scroll;Value;Text;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="52747280" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.1312464.4.-684" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="Chrome_RenderWidgetHostHWND" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Document" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'기업 정보 및 재무제표'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|52747280|Chrome'" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="8,95,1920,1073" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="778,358" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="786,366" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'778, 271'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="'file:///C:/rpa%EC%9E%90%EB%8F%99%ED%99%94/main.html'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'기업 정보 및 재무제표'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="'file:///C:/rpa%EC%9E%90%EB%8F%99%ED%99%94/main.html'" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="576,160" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-08-13 09:20:43.228" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Mouse_UseInvoke" displayKey="Invoke / Click" visible="false" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0,0,200,100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="DESIGNER-HO8M8" />
+  </JobInfo>
+</Result>

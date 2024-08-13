@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="6fa0a8cb-38f8-4245-8a47-baa8a7bc7e3b" name="P_사용기업_재무_자동화" result="Fail" detail="앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.&#xA;앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.&#xA;이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.&#xA;&#xA; - Command: C:\Program Files\Internet Explorer\iexplore.exe&#xA; - Arguments: https://sonw00.github.io/sonw00.jemujepyo.github.io/&#xA; - Derived App: iexplore&#xA; - WaitTime: 1&#xA;&#xA;-- Recent Warning Messages --&#xA;Process: P_사용기업_재무_자동화&#xA;Step: OpenBrowser (1/8)&#xA;&#xA;Error: 앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.&#xA;앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.&#xA;이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.&#xA;&#xA; - Command: C:\Program Files\Internet Explorer\iexplore.exe&#xA; - Arguments: https://sonw00.github.io/sonw00.jemujepyo.github.io/&#xA; - Derived App: iexplore&#xA; - WaitTime: 1" start="2024-08-13T01:13:52.151" end="2024-08-13T01:14:24.080" jobId="Designer_20240813_101349_388">
+  <Step id="S99942d1cd2764bb8a36cf044c2490843" taskName="P_사용기업_재무_자동화" type="Net" name="OpenBrowser" displayName="OpenBrowser" callDepth="1" depth="1" num="1" result="Fail" detail="앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.&#xA;앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.&#xA;이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.&#xA;&#xA; - Command: C:\Program Files\Internet Explorer\iexplore.exe&#xA; - Arguments: https://sonw00.github.io/sonw00.jemujepyo.github.io/&#xA; - Derived App: iexplore&#xA; - WaitTime: 1" start="2024-08-13T01:13:52.209" end="2024-08-13T01:14:24.070" displayTime="31.9s">
+    <Variables>
+      <Variable name="main" scope="Normal" owner="P_사용기업_재무_자동화" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.main : &lt;undefined&gt;" runtimeType="Undefined" key="HTML_BrowserID" displayKey="Browser ID" visible="true" required="false" />
+      <Property value="'https://sonw00.github.io/sonw00.jemujepyo.github.io/'" runtimeType="String" key="HTML_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="HTML_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="1" runtimeType="Integer" key="HTML_WaitTimeSec" displayKey="WaitTime(Sec)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="DESIGNER-HO8M8" />
+  </JobInfo>
+</Result>
